@@ -3,7 +3,7 @@ import time
 import keyboard
 
 # Set the number of clicks per second
-clicks_per_second = 1000
+clicks_per_second = 10
 
 # Set the delay between clicks in seconds
 click_delay = 1 / clicks_per_second
