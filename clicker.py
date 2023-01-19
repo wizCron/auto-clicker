@@ -21,6 +21,10 @@ run = True
 # Flag to track whether the script should be clicking
 clicking = False
 
+print(f"The clicking speed is set to {clicks_per_second} clicks per second.")
+print(f"Press '{start_clicking.capitalize()}'-Key to start the clicker.")
+print(f"Press '{stop_clicking.capitalize()}'-Key to stop the clicker.")
+print(f"Press '{kill_switch.capitalize()}'-Key to exit the clicker.")
 # Continuously check for the g and j keys to be pressed
 while run:
     # Check if the g key is being held down
